@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Awesome Web Page</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 2rem;
+      background-color: #f9f9f9;
+    }
+
+    header,
+    main,
+    footer {
+      margin-bottom: 2rem;
+    }
+
+    img {
+      width: 200px;
+      margin: 0.5rem;
+    }
+  </style>
+</head>
+
+<body>
+
+  <header>
+    <h1>Welcome to My Awesome Web Page</h1>
+    <p>This page shows off basic HTML structure with semantic tags, images, and a list!</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>Top 3 My Favorite Synthion's song</h2>
+      <ul>
+        <li>Sky Blue</li>
+        <li>Roses and Ribbons</li>
+        <li>Aurora</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Synthion's song gallery</h2>
+      <img src="images/sky-blue.jpg" alt="Sky Blue">
+      <img src="images/roses-and-ribbons.jpg" alt="Roses and Ribbons">
+      <img src="images/aurora.jpg" alt="Aurora">
+
+    </section>
+  </main>
+
+  <footer>
+    <p>Hear more about Synthion's song on
+      <a href="https://www.youtube.com/channel/UCKAwc0NMXjkPGNkb-khG8Qg" target="_blank" rel="noopener noreferrer">youtube</a>.
+    </p>
+  </footer>
+
+</body>
+
+</html>
